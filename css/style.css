@@ -261,3 +261,8 @@ nav {
     z-index: 2;
   }
 }
+
+/**/
+.my-work {
+  background-color: var(--clr-dark);
+}

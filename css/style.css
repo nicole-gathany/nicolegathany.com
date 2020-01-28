@@ -266,4 +266,11 @@ nav {
 .my-work {
   background-color: var(--clr-dark);
   color: var(--clr-light);
+  text-align: center;
+}
+
+.section__subtitle--work {
+  color: var(--clr-accent);
+  font-weight: var(-fw-bold);
+  margin-bottom: 1em;
 }

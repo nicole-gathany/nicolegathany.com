@@ -320,11 +320,19 @@ nav {
   opacity: 0.7;
 }
 
-.footer-link{
+.footer-link {
   font-size: var(--fs-h3);
   font-weight: var(--fw-bold);
 }
 
-.footer__link:hover{
+.footer__link:hover {
   text-decoration: underline;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+  padding: 0;
 }

@@ -128,10 +128,21 @@ h3 {
 }
 
 /*header*/
-
-nav {
-  display: none;
+header {
+  display: flex;
+  justify-content: space-bbetween;
+  padding: 1em;
 }
+
+.logo {
+  max-width: 200px;
+}
+
+.nav {
+  position: fixed;
+}
+
+/*Intro section*/
 
 .intro {
   position: relative;

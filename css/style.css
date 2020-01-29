@@ -184,6 +184,11 @@ header {
   z-index: 1000;
 }
 
+/*for testing*/
+.nav-open {
+  background: red;
+}
+
 /*Hamburger*/
 /*wtf is a hamburger*/
 

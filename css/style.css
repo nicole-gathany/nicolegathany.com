@@ -186,10 +186,12 @@ header {
 }
 
 .hamburger::before,
-hamburger::after{
-  content: '';
+hamburger::after {
+  content: "";
   position: absolute;
-  
+  left: 0;
+  right: 0;
+  background: var(--clr-dark);
 }
 /*Intro section*/
 

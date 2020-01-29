@@ -173,6 +173,15 @@ header {
   color: var(--clr-accent);
 }
 
+.nav-toggle {
+  padding: 0.25em;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
 /*Hamburger*/
 /*wtf is a hamburger*/
 

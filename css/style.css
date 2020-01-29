@@ -185,8 +185,8 @@ header {
 }
 
 /*for testing*/
-.nav-open {
-  background: red;
+.nav-open .nav{
+ transform: translateX(0)
 }
 
 /*Hamburger*/

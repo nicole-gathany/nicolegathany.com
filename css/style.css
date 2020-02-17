@@ -36,7 +36,7 @@
 
 /*General styles*/
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -201,11 +201,11 @@ header {
   transform: rotate(0.625turn);
 }
 
-.nav-open .hamburger::before{
+.nav-open .hamburger::before {
   transform: rotate(90deg) translateX(-6px);
 }
 
-.nav-open .hamburger::after{
+.nav-open .hamburger::after {
   opacity: 0;
 }
 
@@ -460,14 +460,13 @@ header {
   padding: 0.5em;
 }
 
-.portfolio-item-individual{
-padding: 0 2em 2em;
-max-width: 1000px;
-margin: 0 auto;
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.portfolio-item-individual p{
-  max-width:600px;
-  margin-right: auto;
-  margin-left: auto;
+.portfolio-item-individual p {
+  max-width: 600px;
+  font-size: large;
 }

@@ -272,7 +272,7 @@ header {
   }
   .intro__img {
     grid-area: img;
-    min-width: 250px;
+    min-width: 320px;
     position: relative;
     z-index: 2;
   }
@@ -280,7 +280,7 @@ header {
   .section__subtitle--intro {
     align-self: start;
     grid-column: -1/1;
-    grid-row: 2;
+    grid-row: 2.5;
     text-align: right;
     position: relative;
     left: -1.5em;

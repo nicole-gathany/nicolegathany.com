@@ -118,7 +118,7 @@ h3 {
   display: block;
 }
 
-.section__subtitle {
+.section__subtitle--intro {
   margin: 0;
   font-size: var(--fs-h3);
 }
@@ -134,7 +134,7 @@ h3 {
 /*header*/
 header {
   display: flex;
-  justify-content: space-bbetween;
+  justify-content: space-between;
   padding: 1em;
 }
 
@@ -391,7 +391,7 @@ header {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .portfolio__item {
@@ -400,7 +400,7 @@ header {
 }
 /*image are not looking the same so i need to reformat them individually*/
 /*Image 1*/
-.portfolio__img__1 {
+.portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
   opacity: 250ms linear;
 }
@@ -410,41 +410,8 @@ header {
   z-index: 2;
 }
 
-.portfolio__img__1:hover,
+.portfolio__img:hover,
 .portfolio__item:focus .portfolio__img__1 {
-  transform: scale(1.2);
-  opacity: 0.5;
-}
-
-/*Image 2*/
-.portfolio__img__2 {
-  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
-  opacity: 250ms linear;
-}
-
-.portfolio__item:focus {
-  position: relative;
-  z-index: 2;
-}
-
-.portfolio__img__2:hover,
-.portfolio__item:focus .portfolio__img__2 {
-  transform: scale(1.2);
-  opacity: 0.5;
-}
-
-/*Image 3*/
-.portfolio__img__3 {
-  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
-  opacity: 250ms linear;
-}
-
-.portfolio__item:focus {
-  position: relative;
-  z-index: 2;
-}
-.portfolio__img__3:hover,
-.portfolio__item:focus .portfolio__img__3 {
   transform: scale(1.2);
   opacity: 0.5;
 }

@@ -398,8 +398,9 @@ header {
   background: var(--clr-accent);
   overflow: hidden;
 }
-
-.portfolio__img {
+/*image are not looking the same so i need to reformat them individually*/
+/*Image 1*/
+.portfolio__img__1 {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
   opacity: 250ms linear;
 }
@@ -409,8 +410,41 @@ header {
   z-index: 2;
 }
 
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
+.portfolio__img__1:hover,
+.portfolio__item:focus .portfolio__img__1 {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+/*Image 2*/
+.portfolio__img__2 {
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+  opacity: 250ms linear;
+}
+
+.portfolio__item:focus {
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio__img__2:hover,
+.portfolio__item:focus .portfolio__img__2 {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+/*Image 3*/
+.portfolio__img__3 {
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+  opacity: 250ms linear;
+}
+
+.portfolio__item:focus {
+  position: relative;
+  z-index: 2;
+}
+.portfolio__img__3:hover,
+.portfolio__item:focus .portfolio__img__3 {
   transform: scale(1.2);
   opacity: 0.5;
 }

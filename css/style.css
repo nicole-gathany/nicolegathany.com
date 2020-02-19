@@ -470,3 +470,11 @@ header {
   max-width: 600px;
   font-size: large;
 }
+
+.portfolio__image3 {
+  max-width: 1000px;
+}
+
+.portfolio__image2 {
+  max-width: 1000px;
+}

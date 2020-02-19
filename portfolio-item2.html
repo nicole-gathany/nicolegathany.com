@@ -60,7 +60,7 @@
     <div class="portfolio-item-individual">
       <h1>A non tech summary</h1>
       <p>
-        A Nigerian fashion app that finds Nigerian styles on Pinterest.
+        A Nigerian fashion app that retrieves Nigerian styles on Pinterest.
       </p>
       <p>Watch the demo video below</p>
       <video width="800" height="600" controls>
@@ -70,22 +70,37 @@
       </video>
       <h2>Technical Overview</h2>
       <p>
-        I added a backend feature to legacy code inherited from another software
-        engineer who developed a React.js app. I added a button to the app which
-        stored data about the dresses on the backend.
+        I added a backend/frontend feature to legacy code inherited from another
+        software engineer who developed a React.js app. I added a button to the
+        app using React.js which stored data about the dresses on the backend
+        using Express.js, Node.js, and MySQL.
       </p>
       <h2>Technical: Backend</h2>
       <p>
         I utilized Node.js, Express.js, and MySQL in order to store data about
-        the user's favorite dresses.
+        the user's favorite dresses. I had no idea so much technical work went
+        into online shopping and I plan to use what I learned to create an
+        ecommerce app for a friend!
       </p>
 
       <h2>Technical: Frontend</h2>
       <p>
         I created a favorite button using React.js that would then communicate
-        witht the backend to store data about the user's favorite dress(es).
+        with the backend to store data about the user's favorite dress(es).
       </p>
-      >
+      <h2>Trouble-shooting</h2>
+      <p>
+        I need to take a moment to brag about this. So the software engineer who
+        started this project used an Pinterest API to retrieve pictures of the
+        styles she wanted to showcase in the app. One issue was that Pinterest
+        only allowed access to the API 10 times per day for free. Since I needed
+        more than 10 times to check if the features I added were working, 10
+        times per day was not ideal. So I had the idea to create a fake API
+        (which was really an array of objects with "dummy data" about pictures)
+        that would work quite similarly to the real API. I used this fake API to
+        test the favorite button and the backend routes, but commented the fake
+        API out when I was ready for the real API which I uncommented.
+      </p>
     </div>
 
     <!--Footer-->

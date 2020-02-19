@@ -345,7 +345,7 @@ header {
   box-shadow: var(--bs);
 }
 
-@media (min-wdith: 600px) {
+@media (min-width: 1000px) {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;
@@ -461,6 +461,14 @@ header {
   padding: 0.5em;
 }
 
+@media (min-width: 500px) {
+  .portfolio-item-individual {
+    display: grid;
+
+    max-width: 700px;
+  }
+}
+
 .portfolio-item-individual {
   padding: 0 2em 2em;
   max-width: 1000px;
@@ -477,5 +485,9 @@ header {
 }
 
 .portfolio__image2 {
+  max-width: 1000px;
+}
+
+.portfolio__image1 {
   max-width: 1000px;
 }
